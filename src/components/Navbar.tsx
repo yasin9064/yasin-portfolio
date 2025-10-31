@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="nav-container">
       <div className="logo">
-        <Link href="/">• Paradox</Link>
+        <Link href="/">• Home</Link>
       </div>
       <div className="nav-buttons">
         <button className="btn-light" onClick={() => setIsMenuOpen(!isMenuOpen)}>MENU •</button>

@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </div>
       <div className="center-column">
-        <div className="main-heading">Md Yasin</div>
+      <div className="main-heading glitch" data-text="Md Yasin">Md Yasin</div>
         <div className="profile-image"></div>
       </div>
       <div className="right-column">

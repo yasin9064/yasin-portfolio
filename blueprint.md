@@ -27,9 +27,9 @@ This is a modern-themed portfolio website built with Next.js.
 
 ## **Current Plan**
 
-*   **Task:** Restructure the skills page to include separate divisions for "Languages," "Frameworks," and "Others."
+*   **Task:** Improve the achievements page.
 *   **Steps:**
-    1.  Modified `src/app/skill/skills.tsx` to create three distinct sections for "Languages," "Frameworks," and "Others."
-    2.  Added new skills to each category.
-    3.  Updated `src/app/globals.css` with styles for the new sections.
-    4.  Updated this `blueprint.md` file.
+    1. Create a new component `AchievementCard.tsx`.
+    2. Update `achievements/page.tsx` to use the `AchievementCard` component.
+    3. Add new styles for the achievements page and the `AchievementCard` component to `globals.css`.
+    4. Update this `blueprint.md` file.
