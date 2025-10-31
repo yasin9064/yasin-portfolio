@@ -1,9 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+/* General Body Styles */
 body {
-    background-color: #FFFFFF;
-    color: #333333;
+    background-color: #000;
+    color: #fff;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,63 +11,265 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navigation */
 .nav-container {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #EAEAEA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000;
 }
 
-.nav-container a {
-    color: #333333;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.2em;
+.nav-container .logo a {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nav-buttons {
+    position: relative;
+}
+
+.nav-buttons button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-.nav-container a:hover {
-    color: #007BFF;
+.nav-buttons button:hover {
+    background: #555;
 }
 
-.container {
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: #333;
+    border-radius: 10px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    color: #aaa;
+}
+
+/* Main Content */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 40px;
+    padding: 40px;
+    align-items: start;
+}
+
+/* Columns */
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.center-column {
     text-align: center;
+}
+
+.right-column {
+    text-align: right;
+}
+
+/* Components */
+.biography, .skills, .connect, .stat {
     padding: 20px;
-    animation: fadeIn 1s ease-in-out;
+    background: #111;
+    border-radius: 10px;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.biography h3, .skills h3, .connect h3, .stat h4 {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
-.title {
-    font-size: 4em;
-    font-weight: 700;
-    color: #333333;
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li {
     margin-bottom: 10px;
 }
 
-.subtitle {
-    font-size: 1.5em;
-    margin-top: 20px;
-    color: #555555;
+.connect .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
 }
 
+.right-column .connect .social-icons {
+    justify-content: flex-end;
+}
+
+.connect .social-icons a {
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.connect .social-icons a:hover {
+    color: #aaa;
+}
+
+.center-column .main-heading {
+    font-size: 5em;
+    font-weight: 700;
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: url('/profile.jpg') no-repeat center center/cover;
+    margin: 0 auto 40px;
+    border: 5px solid #333;
+}
+
+.stat p {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Achievements Page */
+.achievements-container {
+    padding: 40px;
+}
+
+.glitch {
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    letter-spacing: 0.05em;
+}
+
+.glitch:before,
+.glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+.glitch:before {
+    left: 2px;
+    text-shadow: -2px 0 #ff00c1;
+    animation: glitch-anim-1 2s infinite linear alternate-reverse;
+}
+
+.glitch:after {
+    left: -2px;
+    text-shadow: -2px 0 #00fff9;
+    animation: glitch-anim-2 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim-1 {
+    0% { clip-path: inset(5% 0 95% 0); }
+    10% { clip-path: inset(45% 0 55% 0); }
+    20% { clip-path: inset(90% 0 2% 0); }
+    30% { clip-path: inset(30% 0 62% 0); }
+    40% { clip-path: inset(1% 0 90% 0); }
+    50% { clip-path: inset(60% 0 30% 0); }
+    60% { clip-path: inset(95% 0 1% 0); }
+    70% { clip-path: inset(25% 0 70% 0); }
+    80% { clip-path: inset(80% 0 5% 0); }
+    90% { clip-path: inset(40% 0 58% 0); }
+    100% { clip-path: inset(92% 0 3% 0); }
+}
+
+@keyframes glitch-anim-2 {
+    0% { clip-path: inset(95% 0 5% 0); }
+    10% { clip-path: inset(55% 0 45% 0); }
+    20% { clip-path: inset(2% 0 90% 0); }
+    30% { clip-path: inset(62% 0 30% 0); }
+    40% { clip-path: inset(90% 0 1% 0); }
+    50% { clip-path: inset(30% 0 60% 0); }
+    60% { clip-path: inset(1% 0 95% 0); }
+    70% { clip-path: inset(70% 0 25% 0); }
+    80% { clip-path: inset(5% 0 80% 0); }
+    90% { clip-path: inset(58% 0 40% 0); }
+    100% { clip-path: inset(3% 0 92% 0); }
+}
+
+.achievements-list {
+  margin-top: 2rem;
+}
+
+.achievement-item {
+  border-bottom: 1px solid #333;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achievement-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.achievement-year {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Skills Page */
 .skills-container {
-    width: 80%;
-    margin-top: 50px;
+    padding: 40px;
+}
+
+.skills-category {
+    margin-bottom: 40px;
+}
+
+.skills-category h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
 }
 
 .skill {
@@ -75,114 +277,19 @@ body {
 }
 
 .skill p {
+    margin: 0 0 10px;
     font-size: 1.2em;
-    margin-bottom: 10px;
-    text-align: left;
-    font-weight: 500;
 }
 
 .progress-bar {
-    width: 100%;
-    background-color: #EAEAEA;
-    border-radius: 5px;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
 }
 
 .progress {
-    height: 20px;
-    background-color: #007BFF;
-    border-radius: 5px;
-    animation: progress-animation 2s ease-out;
-}
-
-@keyframes progress-animation {
-    from {
-        width: 0;
-    }
-}
-
-.projects-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-top: 50px;
-}
-
-.project-card {
-    background: #FFFFFF;
-    border: 1px solid #EAEAEA;
+    background: #ff00c1;
+    height: 100%;
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.project-card h3 {
-    font-size: 1.5em;
-    color: #333333;
-    margin-bottom: 10px;
-}
-
-.project-card p {
-    font-size: 1em;
-    color: #555555;
-}
-
-.project-card a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 15px;
-    background-color: #007BFF;
-    color: #FFFFFF;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.project-card a:hover {
-    background-color: #0056b3;
-}
-
-.achievements-list {
-    list-style: none;
-    padding: 0;
-    width: 80%;
-    margin-top: 50px;
-}
-
-.achievements-list li {
-    background: #FFFFFF;
-    border: 1px solid #EAEAEA;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.achievements-list li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.achievement-title {
-    font-size: 1.5em;
-    color: #333333;
-    font-weight: 500;
-}
-
-.achievement-year {
-    font-size: 1.2em;
-    color: #007BFF;
-    font-weight: 500;
 }

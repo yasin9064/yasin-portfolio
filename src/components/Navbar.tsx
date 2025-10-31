@@ -1,12 +1,28 @@
-import Link from 'next/link';
+'use client';
 
-export default function Navbar() {
+import Link from 'next/link';
+import { useState } from 'react';
+
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <nav className="nav-container">
-      <Link href="/">Home</Link>
-      <Link href="/skill">Skills</Link>
-      <Link href="/project">Projects</Link>
-      <Link href="/achievements">Achievements</Link>
+      <div className="logo">
+        <Link href="/">• Paradox</Link>
+      </div>
+      <div className="nav-buttons">
+        <button className="btn-light" onClick={() => setIsMenuOpen(!isMenuOpen)}>MENU •</button>
+        {isMenuOpen && (
+          <div className="dropdown-menu">
+            <Link href="/skill">Skills</Link>
+            <Link href="/project">Projects</Link>
+            <Link href="/achievements">Achievements</Link>
+          </div>
+        )}
+      </div>
     </nav>
   );
-}
+};
+
+export default Navbar;

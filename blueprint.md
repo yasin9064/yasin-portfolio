@@ -2,34 +2,34 @@
 
 This is a modern-themed portfolio website built with Next.js.
 
-##-truncate-
+## **Design & Style:**
 
-### Version 2.0 (Current)
+*   **Theme:** Dark, modern, and professional.
+*   **Font:** Inter, with a prominent outlined text style for the main heading.
+*   **Background:** Black background.
+*   **Layout:** A dynamic, multi-column layout on the landing page featuring a biography, skills, social links, a central profile image, and key statistics.
 
-**Design & Style:**
+## **Features:**
 
-*   **Theme:** Modern, clean, and minimalist, with a light color scheme, and blue accents.
-*   **Font:** Inter, a clean, sans-serif font.
-*   **Background:** White background.
-*   **Animations:** Subtle fade-in animations and smooth transitions.
-
-**Features:**
-
-*   **Navigation:** A navigation bar that links to the Home, Projects, Achievements, and Skills pages.
-*   **Home Page:** A landing page with a clean and professional look.
-*   **Skills Page:** A page that lists skills in a clean and organized way.
+*   **Navigation:** An updated navigation bar with "LET'S TALK" and "MENU" buttons. The "MENU" button has a dropdown with links to other pages.
+*   **Home Page:** A redesigned landing page with distinct sections for:
+    *   Biography: A brief introduction.
+    *   Skills: A list of key skills.
+    *   Connect: Social media links.
+    *   Profile Image: A central, stylized profile picture.
+    *   Statistics: "Projects Done," "Years of Experience," and "Worldwide Clients."
+*   **Skills Page:** A page that lists skills organized into three categories: "Languages," "Frameworks," and "Others." Each skill has a progress bar to indicate proficiency.
 *   **Projects Page:** A page that displays project cards with a modern design.
 *   **Achievements Page:** A page that lists achievements in a clear and concise manner.
 *   **Components:**
-    *   `Navbar`: A reusable navigation bar component.
+    *   `Navbar`: A reusable navigation bar component with a dropdown menu.
     *   `ProjectCard`: A reusable card component for displaying projects.
 
-### Current Plan
+## **Current Plan**
 
-*   **Task:** Change the theme of the website to a modern style.
+*   **Task:** Restructure the skills page to include separate divisions for "Languages," "Frameworks," and "Others."
 *   **Steps:**
-    1.  Update `globals.css` to change the background, font, and color scheme to a modern, light theme.
-    2.  Remove cyberpunk-specific styles like glitch effects and carbon fiber background.
-    3.  Update components (`Navbar`, `ProjectCard`, etc.) to align with the new modern design.
-    4.  Ensure the website is responsive.
-    5.  Run `npm run lint -- --fix` to fix any linting issues.
+    1.  Modified `src/app/skill/skills.tsx` to create three distinct sections for "Languages," "Frameworks," and "Others."
+    2.  Added new skills to each category.
+    3.  Updated `src/app/globals.css` with styles for the new sections.
+    4.  Updated this `blueprint.md` file.
