@@ -327,6 +327,7 @@ a {
 }
 
 .project-card:hover {
+.project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
@@ -361,4 +362,49 @@ a {
 
 .project-link:hover {
     background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .nav-container {
+        padding: 20px;
+    }
+
+    .center-column .main-heading {
+        font-size: 3em;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .right-column {
+        text-align: left;
+    }
+
+    .right-column .connect .social-icons {
+        justify-content: flex-start;
+    }
+
+    .projects-container {
+        padding: 20px;
+    }
+
+    .skills-container {
+        padding: 20px;
+    }
+
+    .achievements-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .glitch {
+        font-size: 3rem;
+    }
 }
