@@ -8,7 +8,7 @@
   }
   
   .eb-svg {
-    position: fixed;
+    position: absolute;
     left: -10000px;
     top: -10000px;
     width: 10px;
@@ -66,5 +66,16 @@
     filter: blur(32px);
     opacity: 0.3;
     background: linear-gradient(-30deg, var(--electric-light-color), transparent, var(--electric-border-color));
+  }
+  
+  .eb-overlay-1,
+  .eb-overlay-2 {
+    mix-blend-mode: overlay;
+    opacity: 1;
+    z-index: 0;
+  }
+  
+  .eb-overlay-2 {
+    opacity: 0.5;
   }
   

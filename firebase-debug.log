@@ -611,3 +611,187 @@
 [debug] [2025-11-02T11:46:50.903Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
 [debug] [2025-11-02T11:46:50.909Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com 200
 [debug] [2025-11-02T11:46:50.909Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T12:12:53.360Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T12:12:53.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:02.958Z] Running auto auth
+[debug] [2025-11-02T12:13:02.979Z] Running auto auth
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T12:13:03.038Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.038Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T12:13:03.036Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.036Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T12:13:03.104Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.105Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T12:13:03.105Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.105Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T12:13:03.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.107Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T12:13:03.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T12:13:03.107Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:06:22.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:06:22.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:06:30.726Z] Running auto auth
+[debug] [2025-11-02T15:06:30.736Z] Running auto auth
+[debug] [2025-11-02T15:06:30.967Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:30.980Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.077Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.086Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.100Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.101Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.528Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.528Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.548Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.549Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.574Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [none]
+[debug] [2025-11-02T15:06:31.575Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.769Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.779Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.809Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.810Z] No OAuth tokens found
+[debug] [2025-11-02T15:06:31.810Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.810Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.837Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.837Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.872Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-02T15:06:31.873Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:31.905Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [none]
+[debug] [2025-11-02T15:06:31.906Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:06:33.166Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-02T15:06:33.179Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-02T15:06:33.270Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com 403
+[debug] [2025-11-02T15:06:33.273Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [omitted]
+[debug] [2025-11-02T15:06:33.329Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-02T15:06:33.330Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-02T15:06:33.370Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-02T15:06:33.373Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:06:33.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:06:33.425Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:06:33.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:06:33.448Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:06:33.529Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com 403
+[debug] [2025-11-02T15:06:33.537Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [omitted]
+[debug] [2025-11-02T15:06:33.563Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-02T15:06:33.564Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-02T15:06:33.583Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-02T15:06:33.584Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-02T15:06:33.606Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-02T15:06:33.607Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:01.273Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.277Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.311Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.315Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.316Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.316Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.324Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.324Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.328Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.376Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.376Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.377Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.378Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.381Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.384Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.384Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.384Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.384Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.384Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.388Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.389Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.389Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.389Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.392Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.394Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.395Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.402Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.405Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.408Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.408Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.410Z] No OAuth tokens found
+[debug] [2025-11-02T15:07:01.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:01.410Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:01.416Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.418Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.626Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.626Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.636Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.637Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.646Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [none]
+[debug] [2025-11-02T15:07:01.647Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.651Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.651Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.666Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.666Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.673Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-02T15:07:01.673Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:01.681Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [none]
+[debug] [2025-11-02T15:07:01.681Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com x-goog-quota-user=projects/yasin-portfolio-15377858-36d32
+[debug] [2025-11-02T15:07:02.803Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com 403
+[debug] [2025-11-02T15:07:02.804Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [omitted]
+[debug] [2025-11-02T15:07:02.836Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com 403
+[debug] [2025-11-02T15:07:02.836Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseio.com [omitted]
+[debug] [2025-11-02T15:07:02.994Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-02T15:07:02.994Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-02T15:07:02.997Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-02T15:07:02.997Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-02T15:07:03.001Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-02T15:07:03.001Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-02T15:07:03.003Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-02T15:07:03.003Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-02T15:07:03.008Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-02T15:07:03.009Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.023Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.031Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[debug] [2025-11-02T15:07:03.034Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-02T15:07:03.035Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yasin-portfolio-15377858-36d32/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.164Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.177Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.177Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.201Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.201Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-02T15:07:03.208Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-02T15:07:03.213Z] > authorizing via signed-in user (mohammadyasin9064@gmail.com)

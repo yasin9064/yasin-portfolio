@@ -8,9 +8,9 @@ This project is a personal portfolio website designed to showcase projects, skil
 
 - **Theme:** Dark, futuristic, and tech-inspired.
 - **Font:** Orbitron, a geometric sans-serif typeface, is used for headings and body text to create a cohesive, modern look.
-- **Color Palette:** The primary colors are black, white, and a vibrant magenta (#ff00c1), with accents of cyan (#00fff9) for a striking visual contrast.
+- **Color Palette:** The primary colors are black, white, and a vibrant cyan (#7df9ff), with accents of magenta (#ff00c1) for a striking visual contrast.
 - **Layout:** The main page features a three-column layout, with a central column for the main content and two side columns for additional information. Project cards are displayed in a horizontally scrollable row with a fixed width and height, ensuring a consistent and organized presentation.
-- **Visual Effects:** A "glitch" effect is applied to the main heading for a dynamic, eye-catching animation. Project cards have a subtle lift and shadow effect on hover.
+- **Visual Effects:** A "glitch" effect is applied to the main heading for a dynamic, eye-catching animation. Project cards and other elements are wrapped in an "ElectricBorder" component, which adds a vibrant, animated border. The border has a subtle chaos effect and a soft glow, creating a futuristic feel.
 - **Iconography:** The application uses modern, interactive icons to enhance user understanding and navigation.
 - **Interactivity:** Buttons, links, and other interactive elements have a shadow and glow effect to create a tactile feel.
 
@@ -25,16 +25,25 @@ This project is a personal portfolio website designed to showcase projects, skil
 
 ## Current Plan and Steps
 
-### Objective: Standardize Project Card Height
+### Objective: Fix Electric Border and Firebase Configuration
 
-The goal of this task is to ensure all project cards have a uniform height, regardless of the amount of text they contain. This will align the "View Project" buttons at the bottom of each card, creating a clean and consistent design.
+The goal of this task is to resolve the error related to the Firebase project configuration and to correctly apply the `ElectricBorder` component with the intended parameters.
 
 ### Steps:
 
-1.  **Enable Flexbox for Project Card:** In `src/app/globals.css`, the `.project-card` class was updated to use `display: flex` and `flex-direction: column`.
+1.  **Configure Firebase MCP:** Create the `.idx/mcp.json` file to ensure the IDE can communicate with Firebase services.
 
-2.  **Allow Content to Grow:** The `.project-content` class was updated with `flex-grow: 1` to allow it to fill the available space within the card.
+2.  **Update Homepage:** Wrap the profile image and stat cards with the `ElectricBorder` component, using the specified parameters:
+    - `color`: `#7df9ff`
+    - `speed`: `1`
+    - `chaos`: `0.5`
+    - `thickness`: `2`
+    - `style`: `{ borderRadius: 16 }` (or `50%` for the profile image)
 
-3.  **Align Button to Bottom:** The `.project-link` class was updated with `margin-top: auto` to push it to the bottom of the card.
+3.  **Update Project Cards:** Apply the same `ElectricBorder` configuration to the project cards.
 
-These changes ensure that all project cards have the same height, creating a more organized and visually appealing layout.
+4.  **Fix Positioning:** In `ElectricBorder.css`, change the positioning of the SVG element from `fixed` to `absolute` to prevent erratic behavior on hover.
+
+5.  **Reduce Chaos:** In `ElectricBorder.tsx`, adjust the chaos calculation to create a more subtle distortion effect.
+
+These changes will resolve the error, apply the intended design, and ensure the `ElectricBorder` component functions correctly.
