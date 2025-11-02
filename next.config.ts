@@ -1,8 +1,9 @@
-import { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'out',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    loader: "custom",
+    loaderFile: "./loader.js",
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

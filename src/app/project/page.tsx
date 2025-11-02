@@ -7,22 +7,22 @@ export default function Project() {
         <h1 className="glitch" data-text="Projects">Projects</h1>
         <div className="projects-container">
           <ProjectCard
-            title="Cyber-Security Initiative"
-            description="A project focused on developing next-generation cybersecurity solutions using AI and machine learning to predict and neutralize threats in real-time."
-            link="#"
-            image="https://picsum.photos/seed/project1/600/400"
+            title="Todo-App"
+            description="A simple and elegant Flutter-based To-Do app for managing daily tasks with an intuitive interface and task completion tracking."
+            link="https://github.com/yasin9064/Todo-App.git"
+            image="/assets/Todo/Todo-1.png"
           />
           <ProjectCard
-            title="Project Phoenix"
-            description="An ambitious venture to create a decentralized, AI-driven platform for managing and distributing digital assets with a focus on security and user privacy."
-            link="#"
-            image="https://picsum.photos/seed/project2/600/400"
+            title="BMI Calculator Pro"
+            description="A Flutter-based BMI Calculator app that computes Body Mass Index using metric or imperial units. It features a clean, responsive UI with gender selection and instant result display."
+            link="https://github.com/yasin9064/BMI_Calculator_Pro.git"
+            image="/assets/BMI/BMI-1.png"
           />
           <ProjectCard
-            title="Neural-Net Interfaces"
-            description="Exploring the future of human-computer interaction by developing brain-computer interfaces (BCIs) that allow for seamless control of digital devices."
-            link="#"
-            image="https://picsum.photos/seed/project3/600/400"
+            title="Login-Page"
+            description="A Flutter-based authentication interface for Paradox, featuring a vibrant and responsive design with cloud-themed visuals. The layout emphasizes usability and aesthetics, providing an engaging experience for both new and returning users."
+            link="https://github.com/yasin9064/Login-Page-Project.git"
+            image="/assets/Login/Login-1.png"
           />
         </div>
       </div>
