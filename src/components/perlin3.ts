@@ -18,16 +18,16 @@ const perlin3 = (x: number, y: number, z: number): number => {
   ];
   for (let i=0; i < 256 ; i++) p[256+i] = p[i] = permutation[i];
 
-  let X = Math.floor(x) & 255,                  // FIND UNIT CUBE THAT
+  const X = Math.floor(x) & 255,                  // FIND UNIT CUBE THAT
       Y = Math.floor(y) & 255,                  // CONTAINS POINT.
       Z = Math.floor(z) & 255;
   x -= Math.floor(x);                                // FIND RELATIVE X,Y,Z
   y -= Math.floor(y);                                // OF POINT IN CUBE.
   z -= Math.floor(z);
-  let u = fade(x),                                // COMPUTE FADE CURVES
+  const u = fade(x),                                // COMPUTE FADE CURVES
       v = fade(y),                                // FOR EACH OF X,Y,Z.
       w = fade(z);
-  let A = p[X]+Y, AA = p[A]+Z, AB = p[A+1]+Z,      // HASH COORDINATES OF
+  const A = p[X]+Y, AA = p[A]+Z, AB = p[A+1]+Z,      // HASH COORDINATES OF
       B = p[X+1]+Y, BA = p[B]+Z, BB = p[B+1]+Z;      // THE 8 CUBE CORNERS,
 
   return scale(lerp(w, lerp(v, lerp(u, grad(p[AA], x, y, z),  // AND ADD
@@ -41,8 +41,8 @@ const perlin3 = (x: number, y: number, z: number): number => {
   function fade(t: number) { return t * t * t * (t * (t * 6 - 15) + 10); }
   function lerp( t: number, a: number, b: number) { return a + t * (b - a); }
   function grad(hash: number, x: number, y: number, z: number) {
-    let h = hash & 15;                      // CONVERT LO 4 BITS OF HASH CODE
-    let u = h<8 ? x : y,                 // INTO 12 GRADIENT DIRECTIONS.
+    const h = hash & 15;                      // CONVERT LO 4 BITS OF HASH CODE
+    const u = h<8 ? x : y,                 // INTO 12 GRADIENT DIRECTIONS.
         v = h<4 ? y : h==12||h==14 ? x : z;
     return ((h&1) == 0 ? u : -u) + ((h&2) == 0 ? v : -v);
   }
