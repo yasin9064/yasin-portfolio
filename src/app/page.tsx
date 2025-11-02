@@ -4,7 +4,7 @@ const HomePage = () => {
       <div className="left-column">
         <div className="about">
           <h3>About</h3>
-          <p>Skilled Developer & AI Tool Expert with expertise in building intelligent solutions using AI, automation, and advanced software development. Proficient in programming, AI integration, and workflow optimization to enhance efficiency and innovation.</p>
+          <p>Skilled Developer & AI Tool Expert with expertise in building intelligent solutions using AI, automation, and advanced software development.</p>
         </div>
         <div className="skills">
           <h3>Skills</h3>
@@ -22,7 +22,7 @@ const HomePage = () => {
       <div className="right-column">
         <div className="stat">
           <h4>Projects Completed</h4>
-          <p>4</p>
+          <p>5</p>
         </div>
         <div className="stat">
           <h4>Years of Experience</h4>
